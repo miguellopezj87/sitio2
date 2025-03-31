@@ -119,6 +119,9 @@ nav ul li a:hover{
 }
 
 
+
+
+
 #footer1{
     clear: both;
     background-color: #002C48;
@@ -128,13 +131,6 @@ nav ul li a:hover{
 }
 
 
-footer{
-    clear: both;
-    background-color: #002C48;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    margin-top: 10px;
-}
 
 footer a{
     color: #ffffff;
@@ -145,6 +141,22 @@ footer a{
 footer a:hover{
     text-decoration: underline;
 }
+
+
+
+
+
+footer{
+    clear: both;
+    background-color: #002C48;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 10px;
+}
+
+
+
+
 
 
 #contenedorTabla table{
@@ -163,4 +175,61 @@ footer a:hover{
     text-align: justify;
     font-size: 20px;
     padding: 10px;
+}
+
+
+
+#contenedorRecuperar{
+    clear: both;
+}
+
+#contenedorRecuperar table{
+    width: 50%;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #000000;
+}
+
+#contenedorRecuperar table th p{
+    font-size: 30px;
+    color: #656565;
+}
+
+#contenedorRecuperar table th label{
+    font-size: 20px;
+    color: #656565;
+}
+
+#contenedorRecuperar table a{
+    color: #0061A0;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.camposForm{
+    width: 100%;
+    font-size: 30px;
+    border-color: #d3d3d3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.espaciosCamposForm{
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 100px;
+}
+
+.boton{
+    font-size: 28px;
+    background-color: #0061A0;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 140px;
+    padding-right: 140px;
 }
