@@ -1,4 +1,4 @@
-html, body, header, nav, div, h1, h2, ul, li, a, p{
+html, body, header, nav, div, h1, h2, h3, ul, li, a, p{
     margin: 0;
     padding: 0;
     font-family: Calibri, Arial;
@@ -119,12 +119,21 @@ nav ul li a:hover{
 }
 
 
-footer{
+#footer1{
     clear: both;
     background-color: #002C48;
     padding-top: 25px;
     padding-bottom: 25px;
     margin-top: 320px;
+}
+
+
+footer{
+    clear: both;
+    background-color: #002C48;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 10px;
 }
 
 footer a{
@@ -135,4 +144,23 @@ footer a{
 
 footer a:hover{
     text-decoration: underline;
+}
+
+
+#contenedorTabla table{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contenedorTabla h3{
+    color: #0061A0;
+    text-align: center;
+}
+
+#contenedorTabla table tr td{
+    background-color: #b8b8b8;
+    text-align: justify;
+    font-size: 20px;
+    padding: 10px;
 }
